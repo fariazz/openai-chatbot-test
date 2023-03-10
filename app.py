@@ -25,4 +25,4 @@ with gr.Blocks() as my_app:
     msg.submit(respond, [chatbot, msg], chatbot)
     # add clear button https://gradio.app/creating-a-chatbot/
 
-my_app.launch(share=True)
+my_app.launch()
